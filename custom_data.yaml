@@ -1,0 +1,20 @@
+        path: /home/jovyan/data/lightning/MorozovNikita/data
+        train: train/images  # Path to training images within the train folder
+        val: val/images    # Using the same folder for validation images if not separate
+        nc: 1          # Number of classes (set to the number of object classes in your dataset)
+        names: ['solar_flare']  # Replace with your actual class names
+        plots: True
+        hsv_h: 0.0
+        hsv_s: 0.5
+        hsv_v: 0.3
+        translate: 0.0
+        scale: 0.0
+        flipud: 0.5
+        mosaic: 0.0
+        erasing: 0.0
+        crop_fraction: 0.0
+        crop_fraction: 0.0
+        verbose: True
+        patience: 10
+        save_period: 5
+        workers: 0
