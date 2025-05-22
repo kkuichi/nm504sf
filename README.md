@@ -10,9 +10,9 @@ The model is trained on flare event data from RibbonDB and supports visualizatio
 
 ### Repository contains:
 
-* **final.ipynb** – complete notebook with the full pipeline, including data preparation, image loading, label generation, model prediction, evaluation, and visualization. All sections include detailed comments and explanations.
+* **final.ipynb** – a complete notebook with the full pipeline, including data preparation, image loading, label generation, model training, prediction, evaluation, and visualization. The file also includes code for training the model, and a pre-trained model ready for use is also provided. All sections contain detailed comments and explanations.
 
-* **best.pt** – trained YOLOv8 model used for inference.
+* **best.pt** – the trained YOLOv8 model used for inference. The model was trained using custom parameters provided in this repository and took 5 days to train on a Quadro RTX 4000.
 
 * **custom_data.yaml** – configuration file defining class names and dataset structure for training the YOLO model.
 
