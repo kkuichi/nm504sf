@@ -14,7 +14,7 @@ The model is trained on flare event data from RibbonDB and supports visualizatio
 
 * **best.pt** – the trained YOLOv8 model used for inference. The model was trained using custom parameters provided in this repository and took 5 days to train on a Quadro RTX 4000.
 
-* **custom_data.yaml** – configuration file defining class names and dataset structure for training the YOLO model.
+* **custom_data.yaml** – Configuration file defining class names and dataset structure for training the YOLO model. The parameters were selected based on the specific characteristics of the data, aiming to enhance and augment the existing dataset.
 
 * **ribbondb_v1.0.csv** – catalog of solar flare events (start/end time, coordinates, region ID, etc.), used for retrieving SDO images and generating labels.  
   **Source**: [Kazachenko RibbonDB](https://solarmuri.ssl.berkeley.edu/~kazachenko/RibbonDB/)
